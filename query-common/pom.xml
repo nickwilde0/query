@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>query</artifactId>
+        <groupId>com.hope</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>query-common</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hope</groupId>
+            <artifactId>query-dao</artifactId>
+            <version>${com-hope-version}</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.singularsys</groupId>-->
+            <!--<artifactId>jep-java</artifactId>-->
+            <!--<version>3.4</version>-->
+            <!--<classifier>trial</classifier>-->
+        <!--</dependency>-->
+    </dependencies>
+</project>
